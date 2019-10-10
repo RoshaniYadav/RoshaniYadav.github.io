@@ -1,0 +1,51 @@
+.nav-dp > p:before {
+  content:attr(data-letters);
+  display:inline-block;
+  font-size:1em;
+  width:2.5em;
+  height:2.5em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  background: #66ff66;
+  vertical-align:middle;
+  margin-right:1em;
+  color:white;
+  }
+  .dp > p:before {
+  content:attr(data-letters);
+  display:inline-block;
+  font-size:1em;
+  width:2.5em;
+  height:2.5em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  background: #2eb8b8;
+  vertical-align:middle;
+  margin-right:1em;
+  color:white;
+  }
+  .teal-text{
+	  color:#20c997;
+  }
+  .bg-teal{
+	  background:#20c997;
+  }
+  .border-teal{
+	  border:1px #20c997 solid;
+  }
+  .notification{
+	  position: relative;
+  display: inline-block;
+  }
+  .notification .badge {
+  position: absolute;
+  top: -15px;
+  right: -22px;
+  padding: 7px 8px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size:9pt;
+}
